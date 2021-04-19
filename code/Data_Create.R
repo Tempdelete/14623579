@@ -10,6 +10,10 @@ Data_Create <- function(N = 100) {
                                         ifelse("Height_Score" >= 3, 5 , 6))))
   ) %>% tbl_df()
 
+  x <- 10
   return(df)
+
+
+
 
 }

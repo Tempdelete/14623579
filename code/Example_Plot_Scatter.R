@@ -1,5 +1,5 @@
 Example_Plot_Scatter <- function(DataInput, X, Y, Z, Theme, Title, Ylab, Xlab, LegendTitle, TitleSize = 10, LabSize = 10) {
-
+# Example file
   g <-
     ggplot(data = DataInput) +
     geom_point( aes_string(x = X, y = Y, color = Z) ) +
