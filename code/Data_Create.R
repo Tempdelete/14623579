@@ -11,6 +11,7 @@ Data_Create <- function(N = 100) {
   ) %>% tbl_df()
 
   x <- 10
+  y <- 20
   return(df)
 
 
