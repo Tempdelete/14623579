@@ -9,7 +9,7 @@
 *-Ex.R
 
 # Output files from R CMD build
-/*.tar.gz
+/*_notcommit.R
 
 # Output files from R CMD check
 /*.Rcheck/
@@ -34,3 +34,5 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+data/
